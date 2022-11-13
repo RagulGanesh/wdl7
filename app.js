@@ -20,7 +20,7 @@ app.get("/", async (request, response)=>{
 });
 
 app.get("/todos", async function (_request, response) {
-  console.log("Processing list of all Todos ...");
+  console.log("Processing list of all Todos are ........");
   // FILL IN YOUR CODE HERE
   try {
     const todo = await Todo.findAll();
